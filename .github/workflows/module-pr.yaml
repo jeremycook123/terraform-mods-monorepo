@@ -46,25 +46,27 @@ jobs:
             return uniqueModuleNames;
 
   update-readme:
-    name: Update README for changed modules
-    runs-on: ubuntu-latest
-    needs: find-changes
-    strategy:
-      matrix:
-        module: ${{ fromJson(needs.find-changes.outputs.changed-modules) }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
-          ref: ${{ github.event.pull_request.head.ref }}
-      - name: Render terraform docs and push changes back to PR
-        uses: terraform-docs/gh-actions@v1
-        with:
-          working-dir: ${{ matrix.module }}
-          output-file: README.md
-          output-method: inject
-          git-push: "true"
+  name: Update README for changed modules
+  runs-on: ubuntu-latest
+  needs: find-changes
+  strategy:
+    matrix:
+      module: ${{ fromJson(needs.find-changes.outputs.changed-modules) }}
+  steps:
+    - name: Checkout PR branch
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 2
+        # Let GitHub Actions automatically check out the correct commit for the PR
+        # This works for both same-repo and forked PRs
+
+    - name: Render terraform docs and push changes back to PR
+      uses: terraform-docs/gh-actions@v1
+      with:
+        working-dir: ${{ matrix.module }}
+        output-file: README.md
+        output-method: inject
+        git-push: "true"
 
   module-review:
     name: Individual module review
