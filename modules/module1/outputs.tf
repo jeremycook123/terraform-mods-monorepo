@@ -9,3 +9,19 @@ output "output1" {
 output "output2" {
   value = var.input2
 }
+
+output "output3" {
+  value = var.input3
+}
+
+output "output4" {
+  value = var.input4
+}
+
+output "output5" {
+  value = var.input5
+}
+
+output "output6" {
+  value = var.input6
+}
