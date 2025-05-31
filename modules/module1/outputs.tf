@@ -25,3 +25,7 @@ output "output5" {
 output "output6" {
   value = var.input6
 }
+
+output "output7" {
+  value = var.input7
+}
