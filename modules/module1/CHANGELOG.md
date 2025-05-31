@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/jeremycook123/terraform-mods-monorepo/compare/module1-v1.0.0...module1-v2.0.0) (2025-05-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* **module1:** `extends` key in config file is now used for extending other config files
+
+### Features
+
+* **module1:** allow provided config object to extend other configs ([d42ee09](https://github.com/jeremycook123/terraform-mods-monorepo/commit/d42ee0953a6396f38999bba2363ec5007d96c576))
+
 ## [1.0.0](https://github.com/jeremycook123/terraform-mods-monorepo/compare/module1-v0.1.0...module1-v1.0.0) (2025-05-31)
 
 
