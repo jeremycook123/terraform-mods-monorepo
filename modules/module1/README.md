@@ -26,6 +26,7 @@ No resources.
 | <a name="input_input5"></a> [input5](#input\_input5) | Input variable for module1 | `string` | `"value5"` | no |
 | <a name="input_input6"></a> [input6](#input\_input6) | Input variable for module1 | `string` | `"value6"` | no |
 | <a name="input_input7"></a> [input7](#input\_input7) | Input variable for module1 | `string` | `"value7"` | no |
+| <a name="input_input8"></a> [input8](#input\_input8) | Input variable for module1 | `string` | `"value8"` | no |
 
 ## Outputs
 
@@ -39,4 +40,5 @@ No resources.
 | <a name="output_output5"></a> [output5](#output\_output5) | n/a |
 | <a name="output_output6"></a> [output6](#output\_output6) | n/a |
 | <a name="output_output7"></a> [output7](#output\_output7) | n/a |
+| <a name="output_output8"></a> [output8](#output\_output8) | n/a |
 <!-- END_TF_DOCS -->

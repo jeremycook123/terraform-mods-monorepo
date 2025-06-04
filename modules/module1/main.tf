@@ -1,1 +1,1 @@
-# blah v1.0.1
+# module1 resources here
