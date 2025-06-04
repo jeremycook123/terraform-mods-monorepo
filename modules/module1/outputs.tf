@@ -33,3 +33,7 @@ output "output7" {
 output "output8" {
   value = var.input8
 }
+
+output "output9" {
+  value = var.input8
+}
