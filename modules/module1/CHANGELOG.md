@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.1](https://github.com/jeremycook123/terraform-mods-monorepo/compare/module1-v4.0.0...module1-v4.0.1) (2025-06-04)
+
+
+### Bug Fixes
+
+* **module1:** applied fix 1 ([4520962](https://github.com/jeremycook123/terraform-mods-monorepo/commit/45209625a0725cab5faae5387c8775734fe742a7))
+
 ## [4.0.0](https://github.com/jeremycook123/terraform-mods-monorepo/compare/module1-v3.0.0...module1-v4.0.0) (2025-06-04)
 
 
