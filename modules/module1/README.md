@@ -20,7 +20,7 @@ No resources.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_input1"></a> [input1](#input\_input1) | Input variable for module1 | `string` | `"value1"` | no |
-| <a name="input_input10"></a> [input10](#input\_input10) | Input variable for module1 | `string` | `"feature10 here"` | no |
+| <a name="input_input10"></a> [input10](#input\_input10) | Input variable for module1 | `string` | `"feature10 here - fix1 added"` | no |
 | <a name="input_input2"></a> [input2](#input\_input2) | Input variable for module1 | `string` | `"value2"` | no |
 | <a name="input_input3"></a> [input3](#input\_input3) | Input variable for module1 | `string` | `"value3"` | no |
 | <a name="input_input4"></a> [input4](#input\_input4) | Input variable for module1 | `string` | `"value4"` | no |
