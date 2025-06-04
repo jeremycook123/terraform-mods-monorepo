@@ -20,6 +20,7 @@ No resources.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_input1"></a> [input1](#input\_input1) | Input variable for module1 | `string` | `"value1"` | no |
+| <a name="input_input10"></a> [input10](#input\_input10) | Input variable for module1 | `string` | `"feature10 here"` | no |
 | <a name="input_input2"></a> [input2](#input\_input2) | Input variable for module1 | `string` | `"value2"` | no |
 | <a name="input_input3"></a> [input3](#input\_input3) | Input variable for module1 | `string` | `"value3"` | no |
 | <a name="input_input4"></a> [input4](#input\_input4) | Input variable for module1 | `string` | `"value4"` | no |
@@ -27,6 +28,7 @@ No resources.
 | <a name="input_input6"></a> [input6](#input\_input6) | Input variable for module1 | `string` | `"value6"` | no |
 | <a name="input_input7"></a> [input7](#input\_input7) | Input variable for module1 | `string` | `"value7"` | no |
 | <a name="input_input8"></a> [input8](#input\_input8) | Input variable for module1 | `string` | `"value8"` | no |
+| <a name="input_input9"></a> [input9](#input\_input9) | Input variable for module1 | `string` | `"feature9 here"` | no |
 
 ## Outputs
 
@@ -41,4 +43,5 @@ No resources.
 | <a name="output_output6"></a> [output6](#output\_output6) | n/a |
 | <a name="output_output7"></a> [output7](#output\_output7) | n/a |
 | <a name="output_output8"></a> [output8](#output\_output8) | n/a |
+| <a name="output_output9"></a> [output9](#output\_output9) | n/a |
 <!-- END_TF_DOCS -->
