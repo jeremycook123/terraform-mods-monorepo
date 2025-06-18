@@ -35,5 +35,13 @@ output "output8" {
 }
 
 output "output9" {
-  value = var.input8
+  value = var.input9
+}
+
+output "output10" {
+  value = var.input10
+}
+
+output "output11" {
+  value = var.input11
 }

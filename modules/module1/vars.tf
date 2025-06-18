@@ -57,3 +57,9 @@ variable "input10" {
   description = "Input variable for module1"
   default     = "feature10 here - fix1 added"
 }
+
+variable "input11" {
+  type        = string
+  description = "Input variable for module1"
+  default     = "feature11 here"
+}

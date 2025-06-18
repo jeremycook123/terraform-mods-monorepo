@@ -11,3 +11,5 @@
 *.tfstate.backup
 *.tfstate.d
 *.tfstate.d/*
+
+notes
