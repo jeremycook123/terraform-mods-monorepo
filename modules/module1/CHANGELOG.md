@@ -1,5 +1,16 @@
 # Changelog
 
+## [6.0.0](https://github.com/jeremycook123/terraform-mods-monorepo/compare/module1-v5.0.0...module1-v6.0.0) (2025-06-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **mod1:** add new major feature
+
+### Features
+
+* **mod1:** add new major feature ([9fe02f6](https://github.com/jeremycook123/terraform-mods-monorepo/commit/9fe02f686e68a5a83b4476ecb11a4183743478d7))
+
 ## [5.0.0](https://github.com/jeremycook123/terraform-mods-monorepo/compare/module1-v4.0.1...module1-v5.0.0) (2025-06-18)
 
 
